@@ -1,0 +1,78 @@
+31-Oct-2019 13:01:02:974 INFO  [PoolService-0]  
+31-Oct-2019 13:01:02:980 INFO  [PoolService-0] ****             This test case is designed to test full commission movement during QnB process<small><b><i>[chrome_windows]</b></i></small>             ***** 
+31-Oct-2019 13:01:02:980 INFO  [PoolService-0]  
+31-Oct-2019 13:01:02:981 INFO  [PoolService-0]  
+31-Oct-2019 13:01:02:981 INFO  [PoolService-0] ****             TC_7330_FullCommMovementQnBProcess [MMVP-Login]             ***** 
+31-Oct-2019 13:01:02:982 INFO  [PoolService-0]  
+31-Oct-2019 13:01:02:986 INFO  [PoolService-0] <--------------------- Iteration 0 is started -----------------------> 
+31-Oct-2019 13:01:08:918 DEBUG [PoolService-0] Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2fvm-s4b-blddpy31%2fpure.portal%2fjwtauthprocess.aspx&response_type=code 
+31-Oct-2019 13:01:08:919 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+31-Oct-2019 13:01:08:999 INFO  [PoolService-0] Successfully navigated to LoginScreen Page 
+31-Oct-2019 13:01:09:000 INFO  [PoolService-0] Value of LoginScreen_Username_fieldLabel: ------->Username 
+31-Oct-2019 13:01:09:000 INFO  [PoolService-0] Value of LoginScreen_Username_id: ------->fldUserName 
+31-Oct-2019 13:01:09:001 INFO  [PoolService-0] Value of LoginScreen_Username_inputType: ------->alphanumeric 
+31-Oct-2019 13:01:09:001 INFO  [PoolService-0] Value of LoginScreen_Username_length: ------->10 
+31-Oct-2019 13:01:09:002 INFO  [PoolService-0] Value of LoginScreen_Username_pathType: ------->css 
+31-Oct-2019 13:01:09:002 INFO  [PoolService-0] Value of LoginScreen_Username_screenShot: ------->false 
+31-Oct-2019 13:01:09:003 INFO  [PoolService-0] Value of LoginScreen_Username_type: ------->textfield 
+31-Oct-2019 13:01:10:473 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
+31-Oct-2019 13:01:11:363 INFO  [PoolService-0] Entered text inside Username : admin@redinsurance.com 
+31-Oct-2019 13:01:11:364 INFO  [PoolService-0] Value of LoginScreen_Password_fieldLabel: ------->Password 
+31-Oct-2019 13:01:11:365 INFO  [PoolService-0] Value of LoginScreen_Password_id: ------->fldPassword 
+31-Oct-2019 13:01:11:365 INFO  [PoolService-0] Value of LoginScreen_Password_inputType: ------->alphanumeric 
+31-Oct-2019 13:01:11:366 INFO  [PoolService-0] Value of LoginScreen_Password_length: ------->10 
+31-Oct-2019 13:01:11:366 INFO  [PoolService-0] Value of LoginScreen_Password_pathType: ------->css 
+31-Oct-2019 13:01:11:367 INFO  [PoolService-0] Value of LoginScreen_Password_screenShot: ------->true 
+31-Oct-2019 13:01:11:367 INFO  [PoolService-0] Value of LoginScreen_Password_type: ------->textfield 
+31-Oct-2019 13:01:12:402 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
+31-Oct-2019 13:01:23:772 INFO  [PoolService-0] Entered text inside Password : Password@2018 
+31-Oct-2019 13:01:23:773 INFO  [PoolService-0] Value of LoginScreen_SignIn_fieldLabel: ------->SignIn 
+31-Oct-2019 13:01:23:774 INFO  [PoolService-0] Value of LoginScreen_SignIn_id: ------->btnSignIn 
+31-Oct-2019 13:01:23:774 INFO  [PoolService-0] Value of LoginScreen_SignIn_pathType: ------->css 
+31-Oct-2019 13:01:23:775 INFO  [PoolService-0] Value of LoginScreen_SignIn_screenShot: ------->false 
+31-Oct-2019 13:01:23:775 INFO  [PoolService-0] Value of LoginScreen_SignIn_type: ------->buttonJS 
+31-Oct-2019 13:01:23:987 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (6db145f2c5df462bcd50ed3f7e41bf31)] -> css selector: #login_button[type='submit']] 
+31-Oct-2019 13:01:24:477 INFO  [PoolService-0] Click button is performed for SignIn 
+31-Oct-2019 13:01:24:557 DEBUG [PoolService-0] Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2fvm-s4b-blddpy31%2fpure.portal%2fjwtauthprocess.aspx&response_type=code 
+31-Oct-2019 13:01:24:558 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+31-Oct-2019 13:01:32:862 INFO  [PoolService-0] Successfully navigated to FindClient Page 
+31-Oct-2019 13:01:32:863 INFO  [PoolService-0] Value of FindClient_Client Code_fieldLabel: ------->Client Code 
+31-Oct-2019 13:01:32:864 INFO  [PoolService-0] Value of FindClient_Client Code_id: ------->fldClientCode 
+31-Oct-2019 13:01:32:864 INFO  [PoolService-0] Value of FindClient_Client Code_pathType: ------->css 
+31-Oct-2019 13:01:32:865 INFO  [PoolService-0] Value of FindClient_Client Code_screenShot: ------->false 
+31-Oct-2019 13:01:32:865 INFO  [PoolService-0] Value of FindClient_Client Code_type: ------->textfield 
+31-Oct-2019 13:01:33:899 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
+31-Oct-2019 13:01:34:114 INFO  [PoolService-0] Entered text inside Client Code : A 
+31-Oct-2019 13:01:34:115 INFO  [PoolService-0] Value of FindClient_Find Button_fieldLabel: ------->Find Button 
+31-Oct-2019 13:01:34:116 INFO  [PoolService-0] Value of FindClient_Find Button_id: ------->btnFind 
+31-Oct-2019 13:01:34:116 INFO  [PoolService-0] Value of FindClient_Find Button_pathType: ------->css 
+31-Oct-2019 13:01:34:116 INFO  [PoolService-0] Value of FindClient_Find Button_screenShot: ------->false 
+31-Oct-2019 13:01:34:117 INFO  [PoolService-0] Value of FindClient_Find Button_type: ------->Button 
+31-Oct-2019 13:01:35:151 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
+31-Oct-2019 13:01:36:774 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
+31-Oct-2019 13:01:36:775 INFO  [PoolService-0] Clicked on button Find Button 
+31-Oct-2019 13:01:36:775 INFO  [PoolService-0] Value of FindClient_Select Button_fieldLabel: ------->Select Button 
+31-Oct-2019 13:01:36:776 INFO  [PoolService-0] Value of FindClient_Select Button_id: ------->btnselectClientInSearch 
+31-Oct-2019 13:01:36:776 INFO  [PoolService-0] Value of FindClient_Select Button_pathType: ------->css 
+31-Oct-2019 13:01:36:776 INFO  [PoolService-0] Value of FindClient_Select Button_screenShot: ------->false 
+31-Oct-2019 13:01:36:777 INFO  [PoolService-0] Value of FindClient_Select Button_type: ------->Button 
+31-Oct-2019 13:01:37:801 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
+31-Oct-2019 13:01:43:031 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
+31-Oct-2019 13:01:43:032 INFO  [PoolService-0] Clicked on button Select Button 
+31-Oct-2019 13:01:43:103 DEBUG [PoolService-0] Page URL:: http://vm-s4b-blddpy31/pure.portal/secure/agent/corporateclientdetails.aspx?partykey=30883&code=a 
+31-Oct-2019 13:01:43:104 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+31-Oct-2019 13:01:43:123 INFO  [PoolService-0] Successfully navigated to ViewClientDetails Page 
+31-Oct-2019 13:01:43:124 INFO  [PoolService-0] Value of ViewClientDetails_SelectProduct_fieldLabel: ------->SelectProduct 
+31-Oct-2019 13:01:43:124 INFO  [PoolService-0] Value of ViewClientDetails_SelectProduct_id: ------->drpSelectProduct 
+31-Oct-2019 13:01:43:124 INFO  [PoolService-0] Value of ViewClientDetails_SelectProduct_pathType: ------->css 
+31-Oct-2019 13:01:43:125 INFO  [PoolService-0] Value of ViewClientDetails_SelectProduct_screenShot: ------->true 
+31-Oct-2019 13:01:43:125 INFO  [PoolService-0] Value of ViewClientDetails_SelectProduct_type: ------->select 
+31-Oct-2019 13:01:43:222 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (6db145f2c5df462bcd50ed3f7e41bf31)] -> css selector: select#ctl00_cntMainBody_ctrlNewQuoteImproved_ddlProductlst] 
+31-Oct-2019 13:01:44:770 INFO  [PoolService-0] selected the dropdown SelectProduct option : HIUA Phase 1 GLU 
+31-Oct-2019 13:01:44:771 INFO  [PoolService-0] Value of ViewClientDetails_New quote Button_fieldLabel: ------->New quote Button 
+31-Oct-2019 13:01:44:771 INFO  [PoolService-0] Value of ViewClientDetails_New quote Button_id: ------->btnNewQuote 
+31-Oct-2019 13:01:44:772 INFO  [PoolService-0] Value of ViewClientDetails_New quote Button_pathType: ------->css 
+31-Oct-2019 13:01:44:772 INFO  [PoolService-0] Value of ViewClientDetails_New quote Button_screenShot: ------->false 
+31-Oct-2019 13:01:44:773 INFO  [PoolService-0] Value of ViewClientDetails_New quote Button_type: ------->Button 
+31-Oct-2019 13:01:52:184 DEBUG [PoolService-0] Catched spinner load exception 
+31-Oct-2019 13:01:52:185 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 

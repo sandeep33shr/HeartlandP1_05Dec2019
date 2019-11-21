@@ -1,0 +1,59 @@
+<Selenium>
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="lnkFinance" type="Button"
+			fieldLabel="Finance ribbon menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkTransactions" type="Button"
+			fieldLabel="Transaction ribbon menu" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="SearchTransactions" title="SSP - Pure Insurance">
+
+		<Field id="fldAccountCode" type="textfield"
+			fieldLabel="Company Code" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkboxOutstandingTransaction" type="DeSelectCheckbox"
+			fieldLabel="uncheck outstanding checkbox" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="tabReference" type="link" fieldLabel="Reference Tab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPolicyNumber" type="textfield"
+			fieldLabel="Policynumber" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button"
+			fieldLabel="Click on Find button" pathType="css" screenShot="false">
+		</Field>
+		<Field id="actionMenu" type="Button"
+			fieldLabel="Click on ellipsis button" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="ViewInActionMenuInSeachTransactionsTable" type="Button"
+			fieldLabel="Click on view link" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe"
+			fieldLabel="Switch frame" pathType="css" screenShot="false">
+		</Field>
+		
+		
+        <Field id="creditSectionTransRef" type="assertUnorderedListTextEquals"
+			fieldLabel="Value of transaction Ref in credit section" pathType="css"
+			screenShot="true"
+			validMessage="SRP and SWD are correctly displayed in credit section"
+			errorMessage="SRP and SWD are not  displayed in credit section">>
+		</Field>
+		<Field id="creditSectionAllocatedAmount2ndrow" type="assertOrderedListTextEquals"
+			fieldLabel="Value of Allocated Amount in credit section" pathType="css"
+			screenShot="true"
+			validMessage="SWD generated correctly"
+			errorMessage="SWD not generated correctly">>
+		</Field>
+
+	</Screen>
+</Selenium>
