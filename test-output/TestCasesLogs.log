@@ -1,78 +1,238 @@
-31-Oct-2019 13:01:02:974 INFO  [PoolService-0]  
-31-Oct-2019 13:01:02:980 INFO  [PoolService-0] ****             This test case is designed to test full commission movement during QnB process<small><b><i>[chrome_windows]</b></i></small>             ***** 
-31-Oct-2019 13:01:02:980 INFO  [PoolService-0]  
-31-Oct-2019 13:01:02:981 INFO  [PoolService-0]  
-31-Oct-2019 13:01:02:981 INFO  [PoolService-0] ****             TC_7330_FullCommMovementQnBProcess [MMVP-Login]             ***** 
-31-Oct-2019 13:01:02:982 INFO  [PoolService-0]  
-31-Oct-2019 13:01:02:986 INFO  [PoolService-0] <--------------------- Iteration 0 is started -----------------------> 
-31-Oct-2019 13:01:08:918 DEBUG [PoolService-0] Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2fvm-s4b-blddpy31%2fpure.portal%2fjwtauthprocess.aspx&response_type=code 
-31-Oct-2019 13:01:08:919 DEBUG [PoolService-0] Page Load Wait: (Sync) 
-31-Oct-2019 13:01:08:999 INFO  [PoolService-0] Successfully navigated to LoginScreen Page 
-31-Oct-2019 13:01:09:000 INFO  [PoolService-0] Value of LoginScreen_Username_fieldLabel: ------->Username 
-31-Oct-2019 13:01:09:000 INFO  [PoolService-0] Value of LoginScreen_Username_id: ------->fldUserName 
-31-Oct-2019 13:01:09:001 INFO  [PoolService-0] Value of LoginScreen_Username_inputType: ------->alphanumeric 
-31-Oct-2019 13:01:09:001 INFO  [PoolService-0] Value of LoginScreen_Username_length: ------->10 
-31-Oct-2019 13:01:09:002 INFO  [PoolService-0] Value of LoginScreen_Username_pathType: ------->css 
-31-Oct-2019 13:01:09:002 INFO  [PoolService-0] Value of LoginScreen_Username_screenShot: ------->false 
-31-Oct-2019 13:01:09:003 INFO  [PoolService-0] Value of LoginScreen_Username_type: ------->textfield 
-31-Oct-2019 13:01:10:473 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
-31-Oct-2019 13:01:11:363 INFO  [PoolService-0] Entered text inside Username : admin@redinsurance.com 
-31-Oct-2019 13:01:11:364 INFO  [PoolService-0] Value of LoginScreen_Password_fieldLabel: ------->Password 
-31-Oct-2019 13:01:11:365 INFO  [PoolService-0] Value of LoginScreen_Password_id: ------->fldPassword 
-31-Oct-2019 13:01:11:365 INFO  [PoolService-0] Value of LoginScreen_Password_inputType: ------->alphanumeric 
-31-Oct-2019 13:01:11:366 INFO  [PoolService-0] Value of LoginScreen_Password_length: ------->10 
-31-Oct-2019 13:01:11:366 INFO  [PoolService-0] Value of LoginScreen_Password_pathType: ------->css 
-31-Oct-2019 13:01:11:367 INFO  [PoolService-0] Value of LoginScreen_Password_screenShot: ------->true 
-31-Oct-2019 13:01:11:367 INFO  [PoolService-0] Value of LoginScreen_Password_type: ------->textfield 
-31-Oct-2019 13:01:12:402 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
-31-Oct-2019 13:01:23:772 INFO  [PoolService-0] Entered text inside Password : Password@2018 
-31-Oct-2019 13:01:23:773 INFO  [PoolService-0] Value of LoginScreen_SignIn_fieldLabel: ------->SignIn 
-31-Oct-2019 13:01:23:774 INFO  [PoolService-0] Value of LoginScreen_SignIn_id: ------->btnSignIn 
-31-Oct-2019 13:01:23:774 INFO  [PoolService-0] Value of LoginScreen_SignIn_pathType: ------->css 
-31-Oct-2019 13:01:23:775 INFO  [PoolService-0] Value of LoginScreen_SignIn_screenShot: ------->false 
-31-Oct-2019 13:01:23:775 INFO  [PoolService-0] Value of LoginScreen_SignIn_type: ------->buttonJS 
-31-Oct-2019 13:01:23:987 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (6db145f2c5df462bcd50ed3f7e41bf31)] -> css selector: #login_button[type='submit']] 
-31-Oct-2019 13:01:24:477 INFO  [PoolService-0] Click button is performed for SignIn 
-31-Oct-2019 13:01:24:557 DEBUG [PoolService-0] Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2fvm-s4b-blddpy31%2fpure.portal%2fjwtauthprocess.aspx&response_type=code 
-31-Oct-2019 13:01:24:558 DEBUG [PoolService-0] Page Load Wait: (Sync) 
-31-Oct-2019 13:01:32:862 INFO  [PoolService-0] Successfully navigated to FindClient Page 
-31-Oct-2019 13:01:32:863 INFO  [PoolService-0] Value of FindClient_Client Code_fieldLabel: ------->Client Code 
-31-Oct-2019 13:01:32:864 INFO  [PoolService-0] Value of FindClient_Client Code_id: ------->fldClientCode 
-31-Oct-2019 13:01:32:864 INFO  [PoolService-0] Value of FindClient_Client Code_pathType: ------->css 
-31-Oct-2019 13:01:32:865 INFO  [PoolService-0] Value of FindClient_Client Code_screenShot: ------->false 
-31-Oct-2019 13:01:32:865 INFO  [PoolService-0] Value of FindClient_Client Code_type: ------->textfield 
-31-Oct-2019 13:01:33:899 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
-31-Oct-2019 13:01:34:114 INFO  [PoolService-0] Entered text inside Client Code : A 
-31-Oct-2019 13:01:34:115 INFO  [PoolService-0] Value of FindClient_Find Button_fieldLabel: ------->Find Button 
-31-Oct-2019 13:01:34:116 INFO  [PoolService-0] Value of FindClient_Find Button_id: ------->btnFind 
-31-Oct-2019 13:01:34:116 INFO  [PoolService-0] Value of FindClient_Find Button_pathType: ------->css 
-31-Oct-2019 13:01:34:116 INFO  [PoolService-0] Value of FindClient_Find Button_screenShot: ------->false 
-31-Oct-2019 13:01:34:117 INFO  [PoolService-0] Value of FindClient_Find Button_type: ------->Button 
-31-Oct-2019 13:01:35:151 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
-31-Oct-2019 13:01:36:774 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
-31-Oct-2019 13:01:36:775 INFO  [PoolService-0] Clicked on button Find Button 
-31-Oct-2019 13:01:36:775 INFO  [PoolService-0] Value of FindClient_Select Button_fieldLabel: ------->Select Button 
-31-Oct-2019 13:01:36:776 INFO  [PoolService-0] Value of FindClient_Select Button_id: ------->btnselectClientInSearch 
-31-Oct-2019 13:01:36:776 INFO  [PoolService-0] Value of FindClient_Select Button_pathType: ------->css 
-31-Oct-2019 13:01:36:776 INFO  [PoolService-0] Value of FindClient_Select Button_screenShot: ------->false 
-31-Oct-2019 13:01:36:777 INFO  [PoolService-0] Value of FindClient_Select Button_type: ------->Button 
-31-Oct-2019 13:01:37:801 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
-31-Oct-2019 13:01:43:031 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
-31-Oct-2019 13:01:43:032 INFO  [PoolService-0] Clicked on button Select Button 
-31-Oct-2019 13:01:43:103 DEBUG [PoolService-0] Page URL:: http://vm-s4b-blddpy31/pure.portal/secure/agent/corporateclientdetails.aspx?partykey=30883&code=a 
-31-Oct-2019 13:01:43:104 DEBUG [PoolService-0] Page Load Wait: (Sync) 
-31-Oct-2019 13:01:43:123 INFO  [PoolService-0] Successfully navigated to ViewClientDetails Page 
-31-Oct-2019 13:01:43:124 INFO  [PoolService-0] Value of ViewClientDetails_SelectProduct_fieldLabel: ------->SelectProduct 
-31-Oct-2019 13:01:43:124 INFO  [PoolService-0] Value of ViewClientDetails_SelectProduct_id: ------->drpSelectProduct 
-31-Oct-2019 13:01:43:124 INFO  [PoolService-0] Value of ViewClientDetails_SelectProduct_pathType: ------->css 
-31-Oct-2019 13:01:43:125 INFO  [PoolService-0] Value of ViewClientDetails_SelectProduct_screenShot: ------->true 
-31-Oct-2019 13:01:43:125 INFO  [PoolService-0] Value of ViewClientDetails_SelectProduct_type: ------->select 
-31-Oct-2019 13:01:43:222 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (6db145f2c5df462bcd50ed3f7e41bf31)] -> css selector: select#ctl00_cntMainBody_ctrlNewQuoteImproved_ddlProductlst] 
-31-Oct-2019 13:01:44:770 INFO  [PoolService-0] selected the dropdown SelectProduct option : HIUA Phase 1 GLU 
-31-Oct-2019 13:01:44:771 INFO  [PoolService-0] Value of ViewClientDetails_New quote Button_fieldLabel: ------->New quote Button 
-31-Oct-2019 13:01:44:771 INFO  [PoolService-0] Value of ViewClientDetails_New quote Button_id: ------->btnNewQuote 
-31-Oct-2019 13:01:44:772 INFO  [PoolService-0] Value of ViewClientDetails_New quote Button_pathType: ------->css 
-31-Oct-2019 13:01:44:772 INFO  [PoolService-0] Value of ViewClientDetails_New quote Button_screenShot: ------->false 
-31-Oct-2019 13:01:44:773 INFO  [PoolService-0] Value of ViewClientDetails_New quote Button_type: ------->Button 
-31-Oct-2019 13:01:52:184 DEBUG [PoolService-0] Catched spinner load exception 
-31-Oct-2019 13:01:52:185 DEBUG [PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:02:53:790 INFO  [TestNG-PoolService-0]  
+02-Dec-2019 14:02:53:805 INFO  [TestNG-PoolService-0] ****             This test case is designed to test full commission movement during QnB process<small><b><i>[chrome_windows]</b></i></small>             ***** 
+02-Dec-2019 14:02:53:805 INFO  [TestNG-PoolService-0]  
+02-Dec-2019 14:02:53:805 INFO  [TestNG-PoolService-0]  
+02-Dec-2019 14:02:53:805 INFO  [TestNG-PoolService-0] ****             TC_7330_FullCommMovementQnBProcess [MMVP-Login]             ***** 
+02-Dec-2019 14:02:53:805 INFO  [TestNG-PoolService-0]  
+02-Dec-2019 14:02:53:821 INFO  [TestNG-PoolService-0] <--------------------- Iteration 0 is started -----------------------> 
+02-Dec-2019 14:03:00:720 DEBUG [TestNG-PoolService-0] Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d6970c-dbe3-9019-78b8-024d6983a7d7&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=https:%2f%2fssppureportal-devt.ssp-development.com%2fpure.portaldev2%2fjwtauthprocess.aspx&response_type=code 
+02-Dec-2019 14:03:00:722 DEBUG [TestNG-PoolService-0] Page Load Wait: (Sync) 
+02-Dec-2019 14:03:00:768 INFO  [TestNG-PoolService-0] Successfully navigated to LoginScreen Page 
+02-Dec-2019 14:03:00:770 INFO  [TestNG-PoolService-0] Value of LoginScreen_Username_fieldLabel: ------->Username 
+02-Dec-2019 14:03:00:771 INFO  [TestNG-PoolService-0] Value of LoginScreen_Username_id: ------->fldUserName 
+02-Dec-2019 14:03:00:772 INFO  [TestNG-PoolService-0] Value of LoginScreen_Username_inputType: ------->alphanumeric 
+02-Dec-2019 14:03:00:773 INFO  [TestNG-PoolService-0] Value of LoginScreen_Username_length: ------->10 
+02-Dec-2019 14:03:00:774 INFO  [TestNG-PoolService-0] Value of LoginScreen_Username_pathType: ------->css 
+02-Dec-2019 14:03:00:775 INFO  [TestNG-PoolService-0] Value of LoginScreen_Username_screenShot: ------->false 
+02-Dec-2019 14:03:00:776 INFO  [TestNG-PoolService-0] Value of LoginScreen_Username_type: ------->textfield 
+02-Dec-2019 14:03:01:979 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:03:02:631 INFO  [TestNG-PoolService-0] Entered text inside Username : admin@blueinsurance.com 
+02-Dec-2019 14:03:02:633 INFO  [TestNG-PoolService-0] Value of LoginScreen_Password_fieldLabel: ------->Password 
+02-Dec-2019 14:03:02:635 INFO  [TestNG-PoolService-0] Value of LoginScreen_Password_id: ------->fldPassword 
+02-Dec-2019 14:03:02:637 INFO  [TestNG-PoolService-0] Value of LoginScreen_Password_inputType: ------->alphanumeric 
+02-Dec-2019 14:03:02:638 INFO  [TestNG-PoolService-0] Value of LoginScreen_Password_length: ------->10 
+02-Dec-2019 14:03:02:639 INFO  [TestNG-PoolService-0] Value of LoginScreen_Password_pathType: ------->css 
+02-Dec-2019 14:03:02:640 INFO  [TestNG-PoolService-0] Value of LoginScreen_Password_screenShot: ------->true 
+02-Dec-2019 14:03:02:641 INFO  [TestNG-PoolService-0] Value of LoginScreen_Password_type: ------->textfield 
+02-Dec-2019 14:03:03:742 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:03:06:009 INFO  [TestNG-PoolService-0] Entered text inside Password : Password@2018 
+02-Dec-2019 14:03:06:010 INFO  [TestNG-PoolService-0] Value of LoginScreen_SignIn_fieldLabel: ------->SignIn 
+02-Dec-2019 14:03:06:011 INFO  [TestNG-PoolService-0] Value of LoginScreen_SignIn_id: ------->btnSignIn 
+02-Dec-2019 14:03:06:012 INFO  [TestNG-PoolService-0] Value of LoginScreen_SignIn_pathType: ------->css 
+02-Dec-2019 14:03:06:013 INFO  [TestNG-PoolService-0] Value of LoginScreen_SignIn_screenShot: ------->false 
+02-Dec-2019 14:03:06:014 INFO  [TestNG-PoolService-0] Value of LoginScreen_SignIn_type: ------->buttonJS 
+02-Dec-2019 14:03:06:237 DEBUG [TestNG-PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (d562e8e56f6b4f5a8b449a377009226b)] -> css selector: #login_button[type='submit']] 
+02-Dec-2019 14:03:06:816 INFO  [TestNG-PoolService-0] Click button is performed for SignIn 
+02-Dec-2019 14:03:06:935 DEBUG [TestNG-PoolService-0] Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d6970c-dbe3-9019-78b8-024d6983a7d7&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=https:%2f%2fssppureportal-devt.ssp-development.com%2fpure.portaldev2%2fjwtauthprocess.aspx&response_type=code 
+02-Dec-2019 14:03:06:938 DEBUG [TestNG-PoolService-0] Page Load Wait: (Sync) 
+02-Dec-2019 14:03:18:092 INFO  [TestNG-PoolService-0] Successfully navigated to FindClient Page 
+02-Dec-2019 14:03:18:094 INFO  [TestNG-PoolService-0] Value of FindClient_Client Code_fieldLabel: ------->Client Code 
+02-Dec-2019 14:03:18:095 INFO  [TestNG-PoolService-0] Value of FindClient_Client Code_id: ------->fldClientCode 
+02-Dec-2019 14:03:18:097 INFO  [TestNG-PoolService-0] Value of FindClient_Client Code_pathType: ------->css 
+02-Dec-2019 14:03:18:098 INFO  [TestNG-PoolService-0] Value of FindClient_Client Code_screenShot: ------->false 
+02-Dec-2019 14:03:18:099 INFO  [TestNG-PoolService-0] Value of FindClient_Client Code_type: ------->textfield 
+02-Dec-2019 14:03:19:172 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:03:19:846 INFO  [TestNG-PoolService-0] Entered text inside Client Code : SHARMAQA 
+02-Dec-2019 14:03:19:848 INFO  [TestNG-PoolService-0] Value of FindClient_Find Button_fieldLabel: ------->Find Button 
+02-Dec-2019 14:03:19:849 INFO  [TestNG-PoolService-0] Value of FindClient_Find Button_id: ------->btnFind 
+02-Dec-2019 14:03:19:850 INFO  [TestNG-PoolService-0] Value of FindClient_Find Button_pathType: ------->css 
+02-Dec-2019 14:03:19:851 INFO  [TestNG-PoolService-0] Value of FindClient_Find Button_screenShot: ------->false 
+02-Dec-2019 14:03:19:852 INFO  [TestNG-PoolService-0] Value of FindClient_Find Button_type: ------->Button 
+02-Dec-2019 14:03:20:930 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:03:23:153 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:03:23:153 INFO  [TestNG-PoolService-0] Clicked on button Find Button 
+02-Dec-2019 14:03:23:168 INFO  [TestNG-PoolService-0] Value of FindClient_Select Button_fieldLabel: ------->Select Button 
+02-Dec-2019 14:03:23:169 INFO  [TestNG-PoolService-0] Value of FindClient_Select Button_id: ------->btnselectClientInSearch 
+02-Dec-2019 14:03:23:169 INFO  [TestNG-PoolService-0] Value of FindClient_Select Button_pathType: ------->css 
+02-Dec-2019 14:03:23:169 INFO  [TestNG-PoolService-0] Value of FindClient_Select Button_screenShot: ------->false 
+02-Dec-2019 14:03:23:169 INFO  [TestNG-PoolService-0] Value of FindClient_Select Button_type: ------->Button 
+02-Dec-2019 14:03:24:208 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:03:26:883 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:03:26:899 INFO  [TestNG-PoolService-0] Clicked on button Select Button 
+02-Dec-2019 14:03:27:073 DEBUG [TestNG-PoolService-0] Page URL:: https://ssppureportal-devt.ssp-development.com/pure.portaldev2/secure/agent/personalclientdetails.aspx?partykey=29485&code=sharmaqa 
+02-Dec-2019 14:03:27:073 DEBUG [TestNG-PoolService-0] Page Load Wait: (Sync) 
+02-Dec-2019 14:04:28:855 INFO  [TestNG-PoolService-0] ViewClientDetails Page did not open up. Site might be down 
+02-Dec-2019 14:04:30:623 INFO  [TestNG-PoolService-0] ViewClientDetails Page did not open up. Site might be down. Actual Page title is Personal Client Details. Expected Page title is Corporate Client Details 
+02-Dec-2019 14:04:30:624 INFO  [TestNG-PoolService-0] Value of ViewClientDetails_SelectProduct_fieldLabel: ------->SelectProduct 
+02-Dec-2019 14:04:30:625 INFO  [TestNG-PoolService-0] Value of ViewClientDetails_SelectProduct_id: ------->drpSelectProduct 
+02-Dec-2019 14:04:30:626 INFO  [TestNG-PoolService-0] Value of ViewClientDetails_SelectProduct_pathType: ------->css 
+02-Dec-2019 14:04:30:627 INFO  [TestNG-PoolService-0] Value of ViewClientDetails_SelectProduct_screenShot: ------->true 
+02-Dec-2019 14:04:30:627 INFO  [TestNG-PoolService-0] Value of ViewClientDetails_SelectProduct_type: ------->select 
+02-Dec-2019 14:04:30:828 DEBUG [TestNG-PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (d562e8e56f6b4f5a8b449a377009226b)] -> css selector: select#ctl00_cntMainBody_ctrlNewQuoteImproved_ddlProductlst] 
+02-Dec-2019 14:04:32:800 INFO  [TestNG-PoolService-0] selected the dropdown SelectProduct option : HIUA Phase 1 GLU 
+02-Dec-2019 14:04:32:801 INFO  [TestNG-PoolService-0] Value of ViewClientDetails_New quote Button_fieldLabel: ------->New quote Button 
+02-Dec-2019 14:04:32:801 INFO  [TestNG-PoolService-0] Value of ViewClientDetails_New quote Button_id: ------->btnNewQuote 
+02-Dec-2019 14:04:32:802 INFO  [TestNG-PoolService-0] Value of ViewClientDetails_New quote Button_pathType: ------->css 
+02-Dec-2019 14:04:32:803 INFO  [TestNG-PoolService-0] Value of ViewClientDetails_New quote Button_screenShot: ------->false 
+02-Dec-2019 14:04:32:803 INFO  [TestNG-PoolService-0] Value of ViewClientDetails_New quote Button_type: ------->Button 
+02-Dec-2019 14:04:33:876 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:04:38:683 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:04:38:684 INFO  [TestNG-PoolService-0] Clicked on button New quote Button 
+02-Dec-2019 14:04:38:837 DEBUG [TestNG-PoolService-0] Page URL:: https://ssppureportal-devt.ssp-development.com/pure.portaldev2/secure/maindetails.aspx?newquote=true 
+02-Dec-2019 14:04:38:837 DEBUG [TestNG-PoolService-0] Page Load Wait: (Sync) 
+02-Dec-2019 14:04:38:869 INFO  [TestNG-PoolService-0] Successfully navigated to PolicyHeader Page 
+02-Dec-2019 14:04:38:884 INFO  [TestNG-PoolService-0] Value of PolicyHeader_drpBusinessType_fieldLabel: ------->drpBusinessType 
+02-Dec-2019 14:04:38:884 INFO  [TestNG-PoolService-0] Value of PolicyHeader_drpBusinessType_id: ------->drpBusinessType 
+02-Dec-2019 14:04:38:884 INFO  [TestNG-PoolService-0] Value of PolicyHeader_drpBusinessType_pathType: ------->css 
+02-Dec-2019 14:04:38:884 INFO  [TestNG-PoolService-0] Value of PolicyHeader_drpBusinessType_screenShot: ------->false 
+02-Dec-2019 14:04:38:884 INFO  [TestNG-PoolService-0] Value of PolicyHeader_drpBusinessType_type: ------->select 
+02-Dec-2019 14:04:39:087 DEBUG [TestNG-PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (d562e8e56f6b4f5a8b449a377009226b)] -> css selector: [name='ctl00_cntMainBody_POLICYHEADER__BUSINESSTYPE']] 
+02-Dec-2019 14:04:39:246 INFO  [TestNG-PoolService-0] selected the dropdown drpBusinessType option : Direct Business 
+02-Dec-2019 14:04:39:246 INFO  [TestNG-PoolService-0] Value of PolicyHeader_spinnerWait_fieldLabel: ------->spinnerWait 
+02-Dec-2019 14:04:39:246 INFO  [TestNG-PoolService-0] Value of PolicyHeader_spinnerWait_id: ------->spinner 
+02-Dec-2019 14:04:39:246 INFO  [TestNG-PoolService-0] Value of PolicyHeader_spinnerWait_screenShot: ------->false 
+02-Dec-2019 14:04:39:246 INFO  [TestNG-PoolService-0] Value of PolicyHeader_spinnerWait_type: ------->selectSpinner 
+02-Dec-2019 14:04:40:299 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:04:40:299 INFO  [TestNG-PoolService-0] Value of PolicyHeader_drpBusinessSource_fieldLabel: ------->drpBusinessSource 
+02-Dec-2019 14:04:40:313 INFO  [TestNG-PoolService-0] Value of PolicyHeader_drpBusinessSource_id: ------->drpBusinessSource 
+02-Dec-2019 14:04:40:313 INFO  [TestNG-PoolService-0] Value of PolicyHeader_drpBusinessSource_pathType: ------->css 
+02-Dec-2019 14:04:40:314 INFO  [TestNG-PoolService-0] Value of PolicyHeader_drpBusinessSource_screenShot: ------->false 
+02-Dec-2019 14:04:40:315 INFO  [TestNG-PoolService-0] Value of PolicyHeader_drpBusinessSource_type: ------->select 
+02-Dec-2019 14:04:40:508 DEBUG [TestNG-PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (d562e8e56f6b4f5a8b449a377009226b)] -> css selector: [name='ctl00_cntMainBody_POLICYHEADER__ANALYSISCODE']] 
+02-Dec-2019 14:04:40:786 INFO  [TestNG-PoolService-0] selected the dropdown drpBusinessSource option : Yellow Pages 
+02-Dec-2019 14:04:40:787 INFO  [TestNG-PoolService-0] Value of PolicyHeader_Compliance tab_fieldLabel: ------->Compliance tab 
+02-Dec-2019 14:04:40:788 INFO  [TestNG-PoolService-0] Value of PolicyHeader_Compliance tab_id: ------->tabCompliance 
+02-Dec-2019 14:04:40:789 INFO  [TestNG-PoolService-0] Value of PolicyHeader_Compliance tab_pathType: ------->css 
+02-Dec-2019 14:04:40:790 INFO  [TestNG-PoolService-0] Value of PolicyHeader_Compliance tab_screenShot: ------->false 
+02-Dec-2019 14:04:40:791 INFO  [TestNG-PoolService-0] Value of PolicyHeader_Compliance tab_type: ------->link 
+02-Dec-2019 14:04:41:030 DEBUG [TestNG-PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (d562e8e56f6b4f5a8b449a377009226b)] -> css selector: a[href='#tab-compliancedetails']] 
+02-Dec-2019 14:04:41:132 INFO  [TestNG-PoolService-0] Link clicked Compliance tab :  
+02-Dec-2019 14:04:41:133 INFO  [TestNG-PoolService-0] Value of PolicyHeader_CustomerCategory_fieldLabel: ------->CustomerCategory 
+02-Dec-2019 14:04:41:135 INFO  [TestNG-PoolService-0] Value of PolicyHeader_CustomerCategory_id: ------->drpCustomerCategory 
+02-Dec-2019 14:04:41:136 INFO  [TestNG-PoolService-0] Value of PolicyHeader_CustomerCategory_pathType: ------->css 
+02-Dec-2019 14:04:41:137 INFO  [TestNG-PoolService-0] Value of PolicyHeader_CustomerCategory_screenShot: ------->false 
+02-Dec-2019 14:04:41:138 INFO  [TestNG-PoolService-0] Value of PolicyHeader_CustomerCategory_type: ------->select 
+02-Dec-2019 14:04:41:360 DEBUG [TestNG-PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (d562e8e56f6b4f5a8b449a377009226b)] -> css selector: #ctl00_cntMainBody_CUSTOMER_CATEGORY] 
+02-Dec-2019 14:04:41:576 INFO  [TestNG-PoolService-0] selected the dropdown CustomerCategory option : Commercial 
+02-Dec-2019 14:04:41:577 INFO  [TestNG-PoolService-0] Value of PolicyHeader_MethodOfSale_fieldLabel: ------->MethodOfSale 
+02-Dec-2019 14:04:41:578 INFO  [TestNG-PoolService-0] Value of PolicyHeader_MethodOfSale_id: ------->drpMethodOfSale 
+02-Dec-2019 14:04:41:579 INFO  [TestNG-PoolService-0] Value of PolicyHeader_MethodOfSale_pathType: ------->css 
+02-Dec-2019 14:04:41:579 INFO  [TestNG-PoolService-0] Value of PolicyHeader_MethodOfSale_screenShot: ------->false 
+02-Dec-2019 14:04:41:580 INFO  [TestNG-PoolService-0] Value of PolicyHeader_MethodOfSale_type: ------->select 
+02-Dec-2019 14:04:41:791 DEBUG [TestNG-PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (d562e8e56f6b4f5a8b449a377009226b)] -> css selector: #ctl00_cntMainBody_METHOD_OF_SALE] 
+02-Dec-2019 14:04:42:004 INFO  [TestNG-PoolService-0] selected the dropdown MethodOfSale option : Non Distance 
+02-Dec-2019 14:04:42:005 INFO  [TestNG-PoolService-0] Value of PolicyHeader_TermAgreed_fieldLabel: ------->TermAgreed 
+02-Dec-2019 14:04:42:006 INFO  [TestNG-PoolService-0] Value of PolicyHeader_TermAgreed_id: ------->drpTermAgreed 
+02-Dec-2019 14:04:42:007 INFO  [TestNG-PoolService-0] Value of PolicyHeader_TermAgreed_pathType: ------->css 
+02-Dec-2019 14:04:42:008 INFO  [TestNG-PoolService-0] Value of PolicyHeader_TermAgreed_screenShot: ------->false 
+02-Dec-2019 14:04:42:009 INFO  [TestNG-PoolService-0] Value of PolicyHeader_TermAgreed_type: ------->select 
+02-Dec-2019 14:04:42:213 DEBUG [TestNG-PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (d562e8e56f6b4f5a8b449a377009226b)] -> css selector: select#ctl00_cntMainBody_ddlTermsAgreed] 
+02-Dec-2019 14:04:42:429 INFO  [TestNG-PoolService-0] selected the dropdown TermAgreed option : No 
+02-Dec-2019 14:04:42:430 INFO  [TestNG-PoolService-0] Value of PolicyHeader_TypeOfSale_fieldLabel: ------->TypeOfSale 
+02-Dec-2019 14:04:42:431 INFO  [TestNG-PoolService-0] Value of PolicyHeader_TypeOfSale_id: ------->drpTypeOfSale 
+02-Dec-2019 14:04:42:432 INFO  [TestNG-PoolService-0] Value of PolicyHeader_TypeOfSale_pathType: ------->css 
+02-Dec-2019 14:04:42:433 INFO  [TestNG-PoolService-0] Value of PolicyHeader_TypeOfSale_screenShot: ------->false 
+02-Dec-2019 14:04:42:434 INFO  [TestNG-PoolService-0] Value of PolicyHeader_TypeOfSale_type: ------->select 
+02-Dec-2019 14:04:42:637 DEBUG [TestNG-PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (d562e8e56f6b4f5a8b449a377009226b)] -> css selector: #ctl00_cntMainBody_TYPE_OF_SALE] 
+02-Dec-2019 14:04:42:867 INFO  [TestNG-PoolService-0] selected the dropdown TypeOfSale option : Advised 
+02-Dec-2019 14:04:42:869 INFO  [TestNG-PoolService-0] Value of PolicyHeader_UnderWriter_fieldLabel: ------->UnderWriter 
+02-Dec-2019 14:04:42:870 INFO  [TestNG-PoolService-0] Value of PolicyHeader_UnderWriter_id: ------->fldUnderWriter 
+02-Dec-2019 14:04:42:870 INFO  [TestNG-PoolService-0] Value of PolicyHeader_UnderWriter_pathType: ------->css 
+02-Dec-2019 14:04:42:871 INFO  [TestNG-PoolService-0] Value of PolicyHeader_UnderWriter_screenShot: ------->true 
+02-Dec-2019 14:04:42:872 INFO  [TestNG-PoolService-0] Value of PolicyHeader_UnderWriter_type: ------->textfield 
+02-Dec-2019 14:04:43:930 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:04:46:224 INFO  [TestNG-PoolService-0] Entered text inside UnderWriter : Test 
+02-Dec-2019 14:04:46:225 INFO  [TestNG-PoolService-0] Value of PolicyHeader_NextButton_fieldLabel: ------->NextButton 
+02-Dec-2019 14:04:46:226 INFO  [TestNG-PoolService-0] Value of PolicyHeader_NextButton_id: ------->btnNext 
+02-Dec-2019 14:04:46:226 INFO  [TestNG-PoolService-0] Value of PolicyHeader_NextButton_pathType: ------->css 
+02-Dec-2019 14:04:46:227 INFO  [TestNG-PoolService-0] Value of PolicyHeader_NextButton_screenShot: ------->false 
+02-Dec-2019 14:04:46:227 INFO  [TestNG-PoolService-0] Value of PolicyHeader_NextButton_type: ------->Button 
+02-Dec-2019 14:04:47:289 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:04:55:927 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:04:55:927 INFO  [TestNG-PoolService-0] Clicked on button NextButton 
+02-Dec-2019 14:04:55:942 INFO  [TestNG-PoolService-0] Value of PolicyHeader_spinnerWait_fieldLabel: ------->spinnerWait 
+02-Dec-2019 14:04:55:943 INFO  [TestNG-PoolService-0] Value of PolicyHeader_spinnerWait_id: ------->spinner 
+02-Dec-2019 14:04:55:943 INFO  [TestNG-PoolService-0] Value of PolicyHeader_spinnerWait_screenShot: ------->false 
+02-Dec-2019 14:04:55:943 INFO  [TestNG-PoolService-0] Value of PolicyHeader_spinnerWait_type: ------->selectSpinner 
+02-Dec-2019 14:04:56:990 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:04:56:990 INFO  [TestNG-PoolService-0] Value of PolicyHeader_Insured_General_GuestHouse_fieldLabel: ------->Insured_General_GuestHouse 
+02-Dec-2019 14:04:57:004 INFO  [TestNG-PoolService-0] Value of PolicyHeader_Insured_General_GuestHouse_id: ------->fieldInsuredGeneralGuestHouse 
+02-Dec-2019 14:04:57:005 INFO  [TestNG-PoolService-0] Value of PolicyHeader_Insured_General_GuestHouse_pathType: ------->css 
+02-Dec-2019 14:04:57:005 INFO  [TestNG-PoolService-0] Value of PolicyHeader_Insured_General_GuestHouse_screenShot: ------->false 
+02-Dec-2019 14:04:57:005 INFO  [TestNG-PoolService-0] Value of PolicyHeader_Insured_General_GuestHouse_type: ------->textfield 
+02-Dec-2019 14:04:58:056 DEBUG [TestNG-PoolService-0] Spinner Load Wait: (Sync) 
+02-Dec-2019 14:04:58:119 ERROR [TestNG-PoolService-0] Error while entering text inInsured_General_GuestHouse 
+02-Dec-2019 14:05:00:060 FATAL [TestNG-PoolService-0] java.lang.Exception: java.lang.Exception: java.lang.Exception: No Element Found to enter textorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_cntMainBody_GENERAL_DETAILS__Insured"} 
+java.lang.Exception: java.lang.Exception: java.lang.Exception: java.lang.Exception: No Element Found to enter textorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_cntMainBody_GENERAL_DETAILS__Insured"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'IN00455', ip: '192.168.73.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62474}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5), userDataDir=C:\Users\SANDEE~1.SHA\AppData\Local\Temp\scoped_dir48572_11455}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d562e8e56f6b4f5a8b449a377009226b
+*** Element info: {Using=css selector, value=#ctl00_cntMainBody_GENERAL_DETAILS__Insured}
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:229)
+	at com.ssp.regression.insurer.testscripts.US_7330.TC_7330_FullCommMovementQnBProcess(US_7330.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: java.lang.Exception: java.lang.Exception: No Element Found to enter textorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_cntMainBody_GENERAL_DETAILS__Insured"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'IN00455', ip: '192.168.73.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62474}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5), userDataDir=C:\Users\SANDEE~1.SHA\AppData\Local\Temp\scoped_dir48572_11455}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d562e8e56f6b4f5a8b449a377009226b
+*** Element info: {Using=css selector, value=#ctl00_cntMainBody_GENERAL_DETAILS__Insured}
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:328)
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:223)
+	... 16 more
+Caused by: java.lang.Exception: java.lang.Exception: No Element Found to enter textorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_cntMainBody_GENERAL_DETAILS__Insured"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'IN00455', ip: '192.168.73.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62474}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5), userDataDir=C:\Users\SANDEE~1.SHA\AppData\Local\Temp\scoped_dir48572_11455}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d562e8e56f6b4f5a8b449a377009226b
+*** Element info: {Using=css selector, value=#ctl00_cntMainBody_GENERAL_DETAILS__Insured}
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:328)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:321)
+	... 17 more
+Caused by: java.lang.Exception: No Element Found to enter textorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_cntMainBody_GENERAL_DETAILS__Insured"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'IN00455', ip: '192.168.73.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62474}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5), userDataDir=C:\Users\SANDEE~1.SHA\AppData\Local\Temp\scoped_dir48572_11455}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d562e8e56f6b4f5a8b449a377009226b
+*** Element info: {Using=css selector, value=#ctl00_cntMainBody_GENERAL_DETAILS__Insured}
+	at com.ssp.uxp_pages.ActionKeyword.enterTextUsingActionsClass(ActionKeyword.java:853)
+	at com.ssp.uxp_pages.ActionKeyword.performActionBasedOnFieldType(ActionKeyword.java:132)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:316)
+	... 18 more
+02-Dec-2019 14:05:00:069 ERROR [TestNG-PoolService-0] Test Failed 
+02-Dec-2019 14:05:00:070 INFO  [TestNG-PoolService-0] ****             -E---N---D-             ***** 

@@ -1,17 +1,17 @@
 <Selenium>	
 	<Iteration id="Iteration_0">
-		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		<Field fieldLabel="Username" input="admin@blueinsurance.com">
 		</Field>
 		<Field fieldLabel="Password" input="Password@2018">
 		</Field>
-		<Field fieldLabel="Client Code" input="A">
+		<Field fieldLabel="Client Code" input="SHARMAQA">
 		</Field>
 		
 		<Field fieldLabel="SelectProduct" input="HIUA Phase 1 GLU">
 		</Field>		
 		<Field fieldLabel="drpBusinessType" input="Direct Business">
 		</Field>
-		<Field fieldLabel="drpBusinessSource" input="testing">
+		<Field fieldLabel="drpBusinessSource" input="Yellow Pages">
 		</Field>
 		<Field fieldLabel="EnterReinsurerCode" input="Ageas">
 		</Field>

@@ -258,7 +258,7 @@ public class WaitUtils {
 		List<WebElement> Elements_toFind = driver.findElements(By.cssSelector(locator));
 		(new WebDriverWait(driver, 10).pollingEvery(200, TimeUnit.MILLISECONDS)
 				.ignoring(NoSuchElementException.class, StaleElementReferenceException.class).withMessage(msg))
-						.until((ExpectedConditions.invisibilityOfAllElements(Elements_toFind)));
+						.until((ExpectedConditions.visibilityOfAllElements(Elements_toFind)));
 
 	}
 

@@ -15,7 +15,7 @@
 	<parameter name="env" value="QA"></parameter>
 	<parameter name="mode" value="Broker"></parameter>
 	<parameter name="webSite"
-		value="http://vm-s4b-blddpy31/Pure.Portal/login.aspx"></parameter>
+		value="https://ssppureportal-devt.ssp-development.com/Pure.PortalDev2/secure/agent/FindClient.aspx?PostBack=RibbonMenu"></parameter>
 	<test name="MMVP-Login" parallel="methods" thread-count="1">
 		<classes>
 			<class name="com.ssp.regression.insurer.testscripts.US_7330">
